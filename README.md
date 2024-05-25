@@ -46,3 +46,7 @@ appjail makejail -j debian -- --network development --ruleset 11
 ```
 
 Your ruleset must unhide `shm` and `shm/*`.
+
+## Notes
+
+* This Makejail uses the `bookworm` version of Debian.
